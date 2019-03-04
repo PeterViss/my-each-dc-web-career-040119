@@ -1,12 +1,14 @@
 
+collection = [1, 2, 3, 4]
 
-def my_each(word)
-  i = 0 # put argument(s) here
-while i < word.length
-  yield(word[i])
-  i = i + 1
-end
-word  # code here
+def my_each(collection)
+ 
+ i=0
+ while i < collection.length 
+ yield(collection[i])
+ i+=1
+ end 
+ collection
 end
 
-my_each(list) {|i| returns i}
+my_each(collection) {|x| puts x}
