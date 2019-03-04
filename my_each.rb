@@ -1,8 +1,8 @@
 def my_each(word) # put argument(s) here
-while my_each < 5
-  yield {
-   return my_each(words) do |word|
-     word}
-
+while i < array.length
+  yield(array[i])
+  i = i + 1 
 end  # code here
 end
+
+my_each(list) {|i|}
